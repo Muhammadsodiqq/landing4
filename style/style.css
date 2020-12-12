@@ -278,6 +278,11 @@ body{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    transition: background-color 0.5s ease;
+
+}
+.number:hover {
+    background-color: #A8A8AC;
 }
 .number span{
     font-size: 21px;
@@ -294,6 +299,10 @@ button{
     border-radius: 0px 0px 5px 0px;
     width: 27px;
     padding: 9px;
+    transition: background-color 0.5s ease;
+}
+button:hover{
+    background-color: #B9B8C1;
 }
 .narh{
     display: -webkit-box;
@@ -306,6 +315,11 @@ button{
     border: 1px solid #F0C931;
     border-radius: 5px;
     margin-left: 21px;
+    transition: background-color 0.5s ease;
+
+}
+.add:hover{
+    background-color: #FEA95A
 }
 .add p{
     font-size: 21px;
@@ -359,6 +373,10 @@ button{
     margin-top: 41px;
     padding: 20px 0;
     padding-left: 20px;
+    transition: box-shadow 0.5s ease;
+}
+.unique:hover {
+    box-shadow: 2px 2px 4px 4px grey;
 }
 .block{
     margin-left: 20px;
@@ -389,6 +407,11 @@ button{
     border: 1px solid #EAE9F2;
     border-radius: 10px;
     margin-top: 15px;
+    transition: box-shadow 0.5s ease;
+    
+}
+.mobile:hover {
+    box-shadow: 2px 2px 4px 4px grey;
 }
 /*endd*/
 
