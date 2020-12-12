@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @font-face {
     font-family: 'Circular Std';
     src: url('CircularStd-MediumItalic.eot');
@@ -95,13 +102,15 @@
 }
 
 html{
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 *,
 *::after,
 *::before{
-    box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
     text-decoration: none;
     list-style: none;
     margin: 0;
@@ -114,6 +123,8 @@ body{
 .top-section{
     background: #5454D4;
     border: 0.01px solid transparent;
+
+
 }
 .site-header{
     width: 100vw;
@@ -121,18 +132,25 @@ body{
     margin-right: auto;
 }
 .container-top{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     position: fixed;
     width: 100%;
     z-index: 10;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 32px;
     background-color: #5454D4;
     padding: 32px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 3px 3px 10px 0px black;
+    -webkit-box-shadow: 3px 3px 10px 0px black;
+            box-shadow: 3px 3px 10px 0px black;
 
 }
 .container{
@@ -141,9 +159,13 @@ body{
     margin-right: auto;
 }
 .top-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 217px;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .omega{
@@ -180,8 +202,12 @@ body{
 }
 
 .box{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 137px;
     margin-top: 141px;
 }
@@ -249,6 +275,8 @@ body{
     background: #F7F7FB;
     border-radius: 5px;
     width: 91px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .number span{
@@ -268,6 +296,8 @@ button{
     padding: 9px;
 }
 .narh{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .add{
@@ -291,9 +321,13 @@ button{
 /*main-start*/
 
 .get-parent-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 159px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .get-box h1{
@@ -316,8 +350,12 @@ button{
     background: #FFFFFF;
     border: 1px solid #EAE9F2;
     border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 41px;
     padding: 20px 0;
     padding-left: 20px;
@@ -340,8 +378,12 @@ button{
 }
 
 .mobile{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 20px 0;
     background: #FFFFFF;
     border: 1px solid #EAE9F2;
@@ -358,11 +400,17 @@ button{
     margin-left: auto;
     margin-right: auto;
     width: 1600px;
+    margin-top: 162px;
 }
 .unorder-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     border-spacing: 30px;
 }
 .ever{
@@ -381,8 +429,12 @@ button{
     border: 1px solid #EAE9F2;
     border-radius: 10px;
     width: 348px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-left: 13px;
     margin-top: 34px;
     height: 80px;
@@ -518,6 +570,8 @@ button{
 }
 
 .chat{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .chat-list{
@@ -540,8 +594,12 @@ margin-bottom: 28px;
 }
 
 .user{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .nick-name{
     display: inline-block;
@@ -587,8 +645,12 @@ color: #696871;
     margin-right: auto;
 }
 .devider{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 
 }
 .headphone{
@@ -615,9 +677,14 @@ color: #FFFFFF;
 }
 
 .bottom-container{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 32px;
     max-width: 1536px;
     margin-left: auto;
@@ -625,10 +692,15 @@ color: #FFFFFF;
 }
 
 .bottom-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 488px;
-    align-items: center;
-    justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 
 .botto-item a{
