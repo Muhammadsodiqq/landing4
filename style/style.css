@@ -123,13 +123,17 @@ body{
 .container-top{
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
     align-items: center;
     padding: 32px;
-    max-width: 1536px;
+    background-color: #5454D4;
     padding: 32px;
     margin-left: auto;
     margin-right: auto;
-    
+    box-shadow: 3px 3px 10px 0px black;
+
 }
 .container{
     width: 1152px;
@@ -351,6 +355,9 @@ button{
 .everything{
     background-color: #413E65;
     border: 0.01px solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
 }
 .unorder-list{
     display: flex;
@@ -436,7 +443,7 @@ button{
     background-repeat: no-repeat;
     background-position: center;
     border: 0.01px solid transparent;
-    width: 100vw;
+    width: 1600px;
     margin-left: auto;
     margin-right: auto;
     background-color: #5454D4;
@@ -445,35 +452,192 @@ button{
 .people{
     margin-top: 203px;
     font-size: 60px;
-line-height: 70px;
-letter-spacing: -1.87579px;
-color: #FFFFFF;
-width: 521px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #FFFFFF;
+    width: 521px;
 }
 .people + p{
     font-size: 21px;
-line-height: 39px;
-letter-spacing: -0.656526px;
-color: #FFFFFF;
-margin-top: 24px;
-margin-bottom: 44px;
-width: 511px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 44px;
+    width: 511px;
 }
 
 .try{
     background: #FEDC5A;
-border: 1px solid #F0C931;
-border-radius: 5px;
-width: 201px;
-margin-bottom: 202px;
+    border: 1px solid #F0C931;
+    border-radius: 5px;
+    width: 201px;
+    margin-bottom: 202px;
 }
 .try a{
     display: inline-block;
     font-size: 21px;
-line-height: 25px;
-text-align: center;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.656526px;
+    width: 201px;
+    color: rgba(0, 0, 0, 0.788926);
+    padding: 16px 0px;
+}
+/*end*/
+
+/*star*/
+
+.container5{
+    width: 946px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.what{
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    width: 531px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    margin-bottom: 16px;
+}
+.custom{
+    font-size: 21px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.656526px;
+    width: 515px;
+    color: #696871;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 61px;
+}
+
+.chat{
+    display: flex;
+}
+.chat-list{
+    background: rgba(255, 255, 255, 0.7);
+border: 1px solid #EAE9F2;
+border-radius: 10px;
+width: 458px;
+padding: 26px;
+}
+.chat-list:nth-child(1){
+    margin-right: 30px;
+}
+.omg{
+    font-size: 21px;
+line-height: 39px;
 letter-spacing: -0.656526px;
-width: 201px;
-color: rgba(0, 0, 0, 0.788926);
-padding: 16px 0px;
+color: #19191B;
+width: 403px;
+margin-bottom: 28px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+.nick-name{
+    display: inline-block;
+    margin-left: 13px;
+    margin-top: 28px;
+}
+.nick-name h3{
+    font-size: 21px;
+line-height: 28px;
+letter-spacing: -0.656526px;
+color: #19191B;
+}
+.nick-name p{
+    font-size: 16px;
+line-height: 28px;
+letter-spacing: -0.500211px;
+color: #696871;
+}
+.user img{
+    margin-right: 13px;
+}
+.hr{
+    border: none;
+    height: 8px;
+    width: 45px;
+    background-color: #5454D4;
+    border-radius: 4px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*end*/
+
+/*start*/
+
+
+.section6{
+    background-color: #5454D4;
+    border: 0.1px solid transparent;
+    margin-top: 110px;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.devider{
+    display: flex;
+    align-items: center;
+
+}
+.headphone{
+    font-size: 60px;
+line-height: 70px;
+letter-spacing: -1.87579px;
+width: 826px;
+color: #FFFFFF;
+}
+.try2{
+    margin-left: 84px;
+    margin-top: 141px;
+}
+
+/*end*/
+
+/*start*/
+
+.site-footer{
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.bottom-container{
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom-list{
+    display: flex;
+    width: 488px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botto-item a{
+    font-size: 16px;
+line-height: 38px;
+/* identical to box height, or 237% */
+
+text-align: center;
+letter-spacing: -0.500211px;
+
+color: #19191B;
 }
